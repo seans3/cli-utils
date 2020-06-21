@@ -49,6 +49,8 @@ metadata:
   # any impact on group-related functionality such as
   # deletion or pruning.
   name: inventory
+  annotations:
+    ` + kio.NoProcessAnnotation + `
   labels:
     # DANGER: Do not change the value of this label.
     # Changing this value will cause a loss of continuity
